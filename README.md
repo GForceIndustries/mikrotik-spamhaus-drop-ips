@@ -1,6 +1,8 @@
 # Spamhaus DROP IP Address Lists for MikroTik Firewalls
 
-MikroTik firewall address lists for the Spamhaus DROP list. Refreshed daily at 05:30 UTC. The generated configuration files create IPv4 and IPv6 address lists named **spamhaus-drop-ips-ipv4** and **spamhaus-drop-ips-ipv6** which can be used in firewall filter/NAT/mangle rules.
+MikroTik firewall address lists for the Spamhaus DROP list. Refreshed daily at 05:30 UTC. The generated configuration files create IPv4 and IPv6 address lists named **spamhaus-drop-ips-ipv4** and **spamhaus-drop-ips-ipv6** which can be used in firewall rules.
+
+Developed and tested on RouterOS 7.18.2
 
 ## Usage
 
