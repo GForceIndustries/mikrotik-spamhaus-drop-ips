@@ -1,4 +1,4 @@
-# Generated on Thu Aug 14 05:36:34 2025 UTC
+# Generated on Fri Aug 15 05:36:31 2025 UTC
 /ip firewall address-list
 add list=spamhaus-drop-ips-ipv4 address=1.10.16.0/20
 add list=spamhaus-drop-ips-ipv4 address=1.19.0.0/16
@@ -668,6 +668,7 @@ add list=spamhaus-drop-ips-ipv4 address=143.92.48.0/20
 add list=spamhaus-drop-ips-ipv4 address=144.215.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=145.231.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=146.3.0.0/16
+add list=spamhaus-drop-ips-ipv4 address=146.19.5.0/24
 add list=spamhaus-drop-ips-ipv4 address=146.19.228.0/24
 add list=spamhaus-drop-ips-ipv4 address=146.47.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=146.51.0.0/16
@@ -933,7 +934,6 @@ add list=spamhaus-drop-ips-ipv4 address=185.144.180.0/22
 add list=spamhaus-drop-ips-ipv4 address=185.147.49.0/24
 add list=spamhaus-drop-ips-ipv4 address=185.147.140.0/22
 add list=spamhaus-drop-ips-ipv4 address=185.149.146.0/24
-add list=spamhaus-drop-ips-ipv4 address=185.156.72.0/24
 add list=spamhaus-drop-ips-ipv4 address=185.161.148.0/22
 add list=spamhaus-drop-ips-ipv4 address=185.165.24.0/22
 add list=spamhaus-drop-ips-ipv4 address=185.169.4.0/24
