@@ -1,4 +1,4 @@
-# Generated on Wed Oct 29 05:35:53 2025 UTC
+# Generated on Thu Oct 30 05:34:55 2025 UTC
 /ip firewall address-list
 add list=spamhaus-drop-ips-ipv4 address=1.10.16.0/20
 add list=spamhaus-drop-ips-ipv4 address=1.19.0.0/16
@@ -97,7 +97,6 @@ add list=spamhaus-drop-ips-ipv4 address=45.65.32.0/22
 add list=spamhaus-drop-ips-ipv4 address=45.74.10.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.74.16.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.74.57.0/24
-add list=spamhaus-drop-ips-ipv4 address=45.80.104.0/23
 add list=spamhaus-drop-ips-ipv4 address=45.80.158.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.80.248.0/23
 add list=spamhaus-drop-ips-ipv4 address=45.81.23.0/24
@@ -166,6 +165,8 @@ add list=spamhaus-drop-ips-ipv4 address=46.174.204.0/22
 add list=spamhaus-drop-ips-ipv4 address=49.89.240.0/22
 add list=spamhaus-drop-ips-ipv4 address=49.156.160.0/19
 add list=spamhaus-drop-ips-ipv4 address=49.238.64.0/18
+add list=spamhaus-drop-ips-ipv4 address=57.14.0.0/15
+add list=spamhaus-drop-ips-ipv4 address=57.37.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=58.2.0.0/17
 add list=spamhaus-drop-ips-ipv4 address=58.14.0.0/15
 add list=spamhaus-drop-ips-ipv4 address=59.155.0.0/16
@@ -226,6 +227,7 @@ add list=spamhaus-drop-ips-ipv4 address=77.246.242.0/24
 add list=spamhaus-drop-ips-ipv4 address=78.40.143.0/24
 add list=spamhaus-drop-ips-ipv4 address=78.153.140.0/24
 add list=spamhaus-drop-ips-ipv4 address=78.159.156.0/24
+add list=spamhaus-drop-ips-ipv4 address=79.110.50.0/24
 add list=spamhaus-drop-ips-ipv4 address=79.124.62.0/24
 add list=spamhaus-drop-ips-ipv4 address=79.141.67.0/24
 add list=spamhaus-drop-ips-ipv4 address=79.141.79.0/24
@@ -394,6 +396,7 @@ add list=spamhaus-drop-ips-ipv4 address=101.99.92.0/24
 add list=spamhaus-drop-ips-ipv4 address=101.99.95.0/24
 add list=spamhaus-drop-ips-ipv4 address=101.134.0.0/15
 add list=spamhaus-drop-ips-ipv4 address=101.203.128.0/19
+add list=spamhaus-drop-ips-ipv4 address=102.135.91.0/24
 add list=spamhaus-drop-ips-ipv4 address=102.211.56.0/22
 add list=spamhaus-drop-ips-ipv4 address=102.216.254.0/23
 add list=spamhaus-drop-ips-ipv4 address=102.220.112.0/22
@@ -457,6 +460,7 @@ add list=spamhaus-drop-ips-ipv4 address=103.174.130.0/23
 add list=spamhaus-drop-ips-ipv4 address=103.175.229.0/24
 add list=spamhaus-drop-ips-ipv4 address=103.177.238.0/23
 add list=spamhaus-drop-ips-ipv4 address=103.179.148.0/24
+add list=spamhaus-drop-ips-ipv4 address=103.185.162.0/24
 add list=spamhaus-drop-ips-ipv4 address=103.185.163.0/24
 add list=spamhaus-drop-ips-ipv4 address=103.192.228.0/22
 add list=spamhaus-drop-ips-ipv4 address=103.193.184.0/22
@@ -683,6 +687,7 @@ add list=spamhaus-drop-ips-ipv4 address=159.219.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=159.253.120.0/24
 add list=spamhaus-drop-ips-ipv4 address=160.14.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=160.21.0.0/16
+add list=spamhaus-drop-ips-ipv4 address=160.104.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=160.116.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=160.117.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=160.121.0.0/16
@@ -991,7 +996,6 @@ add list=spamhaus-drop-ips-ipv4 address=193.143.1.0/24
 add list=spamhaus-drop-ips-ipv4 address=193.151.160.0/22
 add list=spamhaus-drop-ips-ipv4 address=193.163.101.0/24
 add list=spamhaus-drop-ips-ipv4 address=193.169.175.0/24
-add list=spamhaus-drop-ips-ipv4 address=193.202.8.0/23
 add list=spamhaus-drop-ips-ipv4 address=193.202.82.0/23
 add list=spamhaus-drop-ips-ipv4 address=193.203.10.0/23
 add list=spamhaus-drop-ips-ipv4 address=193.203.127.0/24
@@ -1451,8 +1455,6 @@ add list=spamhaus-drop-ips-ipv4 address=210.57.128.0/18
 add list=spamhaus-drop-ips-ipv4 address=211.102.0.0/17
 add list=spamhaus-drop-ips-ipv4 address=212.11.64.0/24
 add list=spamhaus-drop-ips-ipv4 address=212.74.227.0/24
-add list=spamhaus-drop-ips-ipv4 address=212.119.42.0/23
-add list=spamhaus-drop-ips-ipv4 address=212.119.44.0/23
 add list=spamhaus-drop-ips-ipv4 address=212.224.93.0/24
 add list=spamhaus-drop-ips-ipv4 address=212.237.152.0/21
 add list=spamhaus-drop-ips-ipv4 address=213.21.232.0/24
