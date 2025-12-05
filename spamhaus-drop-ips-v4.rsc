@@ -1,4 +1,4 @@
-# Generated on Thu Dec  4 05:36:15 2025 UTC
+# Generated on Fri Dec  5 05:36:23 2025 UTC
 /ip firewall address-list
 add list=spamhaus-drop-ips-ipv4 address=1.10.16.0/20
 add list=spamhaus-drop-ips-ipv4 address=1.19.0.0/16
@@ -10,6 +10,7 @@ add list=spamhaus-drop-ips-ipv4 address=2.57.234.0/23
 add list=spamhaus-drop-ips-ipv4 address=2.58.56.0/24
 add list=spamhaus-drop-ips-ipv4 address=2.59.152.0/24
 add list=spamhaus-drop-ips-ipv4 address=5.42.92.0/24
+add list=spamhaus-drop-ips-ipv4 address=5.101.82.0/24
 add list=spamhaus-drop-ips-ipv4 address=5.105.220.0/24
 add list=spamhaus-drop-ips-ipv4 address=5.133.101.0/24
 add list=spamhaus-drop-ips-ipv4 address=5.183.60.0/22
@@ -25,6 +26,9 @@ add list=spamhaus-drop-ips-ipv4 address=23.137.100.0/24
 add list=spamhaus-drop-ips-ipv4 address=23.146.240.0/24
 add list=spamhaus-drop-ips-ipv4 address=23.146.242.0/24
 add list=spamhaus-drop-ips-ipv4 address=23.147.52.0/24
+add list=spamhaus-drop-ips-ipv4 address=23.147.148.0/24
+add list=spamhaus-drop-ips-ipv4 address=23.147.156.0/24
+add list=spamhaus-drop-ips-ipv4 address=23.147.164.0/24
 add list=spamhaus-drop-ips-ipv4 address=23.148.144.0/24
 add list=spamhaus-drop-ips-ipv4 address=23.164.152.0/24
 add list=spamhaus-drop-ips-ipv4 address=23.164.153.0/24
@@ -67,6 +71,7 @@ add list=spamhaus-drop-ips-ipv4 address=37.140.251.0/24
 add list=spamhaus-drop-ips-ipv4 address=37.156.64.0/23
 add list=spamhaus-drop-ips-ipv4 address=38.92.176.0/21
 add list=spamhaus-drop-ips-ipv4 address=38.92.184.0/21
+add list=spamhaus-drop-ips-ipv4 address=38.182.0.0/19
 add list=spamhaus-drop-ips-ipv4 address=41.71.128.0/17
 add list=spamhaus-drop-ips-ipv4 address=41.71.150.0/24
 add list=spamhaus-drop-ips-ipv4 address=41.71.222.0/24
@@ -92,6 +97,7 @@ add list=spamhaus-drop-ips-ipv4 address=43.248.40.0/22
 add list=spamhaus-drop-ips-ipv4 address=45.9.168.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.10.166.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.13.213.0/24
+add list=spamhaus-drop-ips-ipv4 address=45.15.21.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.64.52.0/22
 add list=spamhaus-drop-ips-ipv4 address=45.64.74.0/23
 add list=spamhaus-drop-ips-ipv4 address=45.65.32.0/22
@@ -134,7 +140,8 @@ add list=spamhaus-drop-ips-ipv4 address=45.139.104.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.140.17.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.141.56.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.141.58.0/23
-add list=spamhaus-drop-ips-ipv4 address=45.141.87.0/24
+add list=spamhaus-drop-ips-ipv4 address=45.141.84.0/22
+add list=spamhaus-drop-ips-ipv4 address=45.141.198.0/23
 add list=spamhaus-drop-ips-ipv4 address=45.141.215.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.142.155.0/24
 add list=spamhaus-drop-ips-ipv4 address=45.142.193.0/24
@@ -177,6 +184,7 @@ add list=spamhaus-drop-ips-ipv4 address=61.45.251.0/24
 add list=spamhaus-drop-ips-ipv4 address=61.135.130.0/24
 add list=spamhaus-drop-ips-ipv4 address=62.60.130.0/24
 add list=spamhaus-drop-ips-ipv4 address=62.60.131.0/24
+add list=spamhaus-drop-ips-ipv4 address=62.60.135.0/24
 add list=spamhaus-drop-ips-ipv4 address=62.60.186.0/24
 add list=spamhaus-drop-ips-ipv4 address=62.60.188.0/22
 add list=spamhaus-drop-ips-ipv4 address=62.60.208.0/24
@@ -219,6 +227,8 @@ add list=spamhaus-drop-ips-ipv4 address=77.83.207.0/24
 add list=spamhaus-drop-ips-ipv4 address=77.90.185.0/24
 add list=spamhaus-drop-ips-ipv4 address=77.91.76.0/24
 add list=spamhaus-drop-ips-ipv4 address=77.109.3.0/24
+add list=spamhaus-drop-ips-ipv4 address=77.221.134.0/24
+add list=spamhaus-drop-ips-ipv4 address=77.221.146.0/24
 add list=spamhaus-drop-ips-ipv4 address=77.244.221.0/24
 add list=spamhaus-drop-ips-ipv4 address=78.40.143.0/24
 add list=spamhaus-drop-ips-ipv4 address=78.153.140.0/24
@@ -227,11 +237,13 @@ add list=spamhaus-drop-ips-ipv4 address=79.124.62.0/24
 add list=spamhaus-drop-ips-ipv4 address=79.141.79.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.64.18.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.64.19.0/24
+add list=spamhaus-drop-ips-ipv4 address=80.66.65.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.66.75.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.66.77.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.94.92.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.94.92.0/22
 add list=spamhaus-drop-ips-ipv4 address=80.94.95.0/24
+add list=spamhaus-drop-ips-ipv4 address=80.97.47.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.97.160.0/24
 add list=spamhaus-drop-ips-ipv4 address=80.208.192.0/20
 add list=spamhaus-drop-ips-ipv4 address=80.244.11.0/24
@@ -342,6 +354,7 @@ add list=spamhaus-drop-ips-ipv4 address=91.231.222.0/24
 add list=spamhaus-drop-ips-ipv4 address=91.232.18.0/24
 add list=spamhaus-drop-ips-ipv4 address=91.233.0.0/23
 add list=spamhaus-drop-ips-ipv4 address=91.235.130.0/23
+add list=spamhaus-drop-ips-ipv4 address=91.239.216.0/24
 add list=spamhaus-drop-ips-ipv4 address=91.242.228.0/24
 add list=spamhaus-drop-ips-ipv4 address=91.243.93.0/24
 add list=spamhaus-drop-ips-ipv4 address=91.246.43.0/24
@@ -349,6 +362,7 @@ add list=spamhaus-drop-ips-ipv4 address=91.246.176.0/21
 add list=spamhaus-drop-ips-ipv4 address=92.63.197.0/24
 add list=spamhaus-drop-ips-ipv4 address=92.87.6.0/24
 add list=spamhaus-drop-ips-ipv4 address=92.118.39.0/24
+add list=spamhaus-drop-ips-ipv4 address=92.119.194.0/23
 add list=spamhaus-drop-ips-ipv4 address=92.249.63.0/24
 add list=spamhaus-drop-ips-ipv4 address=93.114.51.0/24
 add list=spamhaus-drop-ips-ipv4 address=93.114.52.0/23
@@ -378,6 +392,7 @@ add list=spamhaus-drop-ips-ipv4 address=95.213.154.0/24
 add list=spamhaus-drop-ips-ipv4 address=95.213.159.0/24
 add list=spamhaus-drop-ips-ipv4 address=96.31.94.0/24
 add list=spamhaus-drop-ips-ipv4 address=96.47.225.0/24
+add list=spamhaus-drop-ips-ipv4 address=96.126.168.0/22
 add list=spamhaus-drop-ips-ipv4 address=98.98.195.0/24
 add list=spamhaus-drop-ips-ipv4 address=101.99.92.0/24
 add list=spamhaus-drop-ips-ipv4 address=101.99.95.0/24
@@ -489,7 +504,9 @@ add list=spamhaus-drop-ips-ipv4 address=107.150.0.0/24
 add list=spamhaus-drop-ips-ipv4 address=107.155.224.0/22
 add list=spamhaus-drop-ips-ipv4 address=107.174.46.0/24
 add list=spamhaus-drop-ips-ipv4 address=107.182.240.0/20
+add list=spamhaus-drop-ips-ipv4 address=108.165.20.0/22
 add list=spamhaus-drop-ips-ipv4 address=109.107.146.0/24
+add list=spamhaus-drop-ips-ipv4 address=109.120.136.0/24
 add list=spamhaus-drop-ips-ipv4 address=109.202.246.0/24
 add list=spamhaus-drop-ips-ipv4 address=109.236.50.0/24
 add list=spamhaus-drop-ips-ipv4 address=110.34.48.0/22
@@ -572,6 +589,7 @@ add list=spamhaus-drop-ips-ipv4 address=134.122.128.0/17
 add list=spamhaus-drop-ips-ipv4 address=134.122.168.0/24
 add list=spamhaus-drop-ips-ipv4 address=134.122.188.0/24
 add list=spamhaus-drop-ips-ipv4 address=134.122.189.0/24
+add list=spamhaus-drop-ips-ipv4 address=136.230.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=137.42.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=137.59.60.0/22
 add list=spamhaus-drop-ips-ipv4 address=137.72.0.0/16
@@ -605,7 +623,9 @@ add list=spamhaus-drop-ips-ipv4 address=143.49.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=143.92.32.0/20
 add list=spamhaus-drop-ips-ipv4 address=143.92.43.0/24
 add list=spamhaus-drop-ips-ipv4 address=143.92.48.0/20
+add list=spamhaus-drop-ips-ipv4 address=144.31.160.0/22
 add list=spamhaus-drop-ips-ipv4 address=144.215.0.0/16
+add list=spamhaus-drop-ips-ipv4 address=144.225.132.0/22
 add list=spamhaus-drop-ips-ipv4 address=145.231.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=146.3.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=146.19.5.0/24
@@ -644,6 +664,12 @@ add list=spamhaus-drop-ips-ipv4 address=153.14.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=153.85.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=153.93.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=154.43.61.0/24
+add list=spamhaus-drop-ips-ipv4 address=154.51.232.0/22
+add list=spamhaus-drop-ips-ipv4 address=154.51.236.0/22
+add list=spamhaus-drop-ips-ipv4 address=154.62.16.0/22
+add list=spamhaus-drop-ips-ipv4 address=154.62.20.0/22
+add list=spamhaus-drop-ips-ipv4 address=154.62.24.0/22
+add list=spamhaus-drop-ips-ipv4 address=154.62.28.0/22
 add list=spamhaus-drop-ips-ipv4 address=154.85.48.0/21
 add list=spamhaus-drop-ips-ipv4 address=154.209.190.0/24
 add list=spamhaus-drop-ips-ipv4 address=154.211.12.0/24
@@ -653,6 +679,7 @@ add list=spamhaus-drop-ips-ipv4 address=154.216.188.0/24
 add list=spamhaus-drop-ips-ipv4 address=155.66.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=155.71.0.0/16
 add list=spamhaus-drop-ips-ipv4 address=155.73.0.0/16
+add list=spamhaus-drop-ips-ipv4 address=155.94.129.0/24
 add list=spamhaus-drop-ips-ipv4 address=155.94.185.0/24
 add list=spamhaus-drop-ips-ipv4 address=155.94.203.0/24
 add list=spamhaus-drop-ips-ipv4 address=155.108.0.0/16
@@ -795,6 +822,7 @@ add list=spamhaus-drop-ips-ipv4 address=176.65.148.0/22
 add list=spamhaus-drop-ips-ipv4 address=176.65.149.0/24
 add list=spamhaus-drop-ips-ipv4 address=176.98.185.0/24
 add list=spamhaus-drop-ips-ipv4 address=176.98.186.0/24
+add list=spamhaus-drop-ips-ipv4 address=176.98.187.0/24
 add list=spamhaus-drop-ips-ipv4 address=176.114.71.0/24
 add list=spamhaus-drop-ips-ipv4 address=176.117.107.0/24
 add list=spamhaus-drop-ips-ipv4 address=176.126.111.0/24
@@ -978,14 +1006,19 @@ add list=spamhaus-drop-ips-ipv4 address=193.233.200.0/24
 add list=spamhaus-drop-ips-ipv4 address=193.233.208.0/22
 add list=spamhaus-drop-ips-ipv4 address=193.233.255.0/24
 add list=spamhaus-drop-ips-ipv4 address=193.239.154.0/23
+add list=spamhaus-drop-ips-ipv4 address=193.242.153.0/24
 add list=spamhaus-drop-ips-ipv4 address=193.243.0.0/17
 add list=spamhaus-drop-ips-ipv4 address=193.254.48.0/22
 add list=spamhaus-drop-ips-ipv4 address=194.0.234.0/24
 add list=spamhaus-drop-ips-ipv4 address=194.26.18.0/24
+add list=spamhaus-drop-ips-ipv4 address=194.26.29.0/24
+add list=spamhaus-drop-ips-ipv4 address=194.26.69.0/24
 add list=spamhaus-drop-ips-ipv4 address=194.26.192.0/24
 add list=spamhaus-drop-ips-ipv4 address=194.41.60.0/23
 add list=spamhaus-drop-ips-ipv4 address=194.62.244.0/22
 add list=spamhaus-drop-ips-ipv4 address=194.79.8.0/22
+add list=spamhaus-drop-ips-ipv4 address=194.85.250.0/24
+add list=spamhaus-drop-ips-ipv4 address=194.113.235.0/24
 add list=spamhaus-drop-ips-ipv4 address=194.145.227.0/24
 add list=spamhaus-drop-ips-ipv4 address=194.180.64.0/20
 add list=spamhaus-drop-ips-ipv4 address=195.14.98.0/24
@@ -993,6 +1026,7 @@ add list=spamhaus-drop-ips-ipv4 address=195.22.149.0/24
 add list=spamhaus-drop-ips-ipv4 address=195.66.27.0/24
 add list=spamhaus-drop-ips-ipv4 address=195.88.146.0/23
 add list=spamhaus-drop-ips-ipv4 address=195.96.32.0/19
+add list=spamhaus-drop-ips-ipv4 address=195.133.16.0/24
 add list=spamhaus-drop-ips-ipv4 address=195.177.92.0/24
 add list=spamhaus-drop-ips-ipv4 address=195.178.110.0/24
 add list=spamhaus-drop-ips-ipv4 address=195.181.224.0/20
@@ -1307,6 +1341,7 @@ add list=spamhaus-drop-ips-ipv4 address=205.166.183.0/24
 add list=spamhaus-drop-ips-ipv4 address=205.166.211.0/24
 add list=spamhaus-drop-ips-ipv4 address=205.172.244.0/22
 add list=spamhaus-drop-ips-ipv4 address=205.175.160.0/19
+add list=spamhaus-drop-ips-ipv4 address=205.186.84.0/22
 add list=spamhaus-drop-ips-ipv4 address=205.189.71.0/24
 add list=spamhaus-drop-ips-ipv4 address=205.189.72.0/23
 add list=spamhaus-drop-ips-ipv4 address=205.189.207.0/24
@@ -1382,6 +1417,7 @@ add list=spamhaus-drop-ips-ipv4 address=206.223.33.0/24
 add list=spamhaus-drop-ips-ipv4 address=206.224.160.0/19
 add list=spamhaus-drop-ips-ipv4 address=206.226.0.0/19
 add list=spamhaus-drop-ips-ipv4 address=206.226.32.0/19
+add list=spamhaus-drop-ips-ipv4 address=206.251.56.0/22
 add list=spamhaus-drop-ips-ipv4 address=207.22.192.0/18
 add list=spamhaus-drop-ips-ipv4 address=207.45.56.0/21
 add list=spamhaus-drop-ips-ipv4 address=207.45.224.0/20
@@ -1415,6 +1451,7 @@ add list=spamhaus-drop-ips-ipv4 address=209.148.16.0/20
 add list=spamhaus-drop-ips-ipv4 address=209.159.128.0/20
 add list=spamhaus-drop-ips-ipv4 address=209.161.64.0/19
 add list=spamhaus-drop-ips-ipv4 address=209.182.64.0/19
+add list=spamhaus-drop-ips-ipv4 address=209.182.100.0/22
 add list=spamhaus-drop-ips-ipv4 address=209.186.20.0/22
 add list=spamhaus-drop-ips-ipv4 address=209.186.24.0/21
 add list=spamhaus-drop-ips-ipv4 address=209.186.224.0/21
