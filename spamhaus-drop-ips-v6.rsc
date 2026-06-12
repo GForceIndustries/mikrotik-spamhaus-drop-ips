@@ -1,4 +1,4 @@
-# Generated on Thu Jun 11 07:06:23 2026 UTC
+# Generated on Fri Jun 12 07:00:38 2026 UTC
 /ipv6 firewall address-list
 add list=spamhaus-drop-ips-ipv6 address=2001:678:254::/48
 add list=spamhaus-drop-ips-ipv6 address=2001:678:6c0::/48
@@ -26,6 +26,7 @@ add list=spamhaus-drop-ips-ipv6 address=2405:b180::/32
 add list=spamhaus-drop-ips-ipv6 address=2405:b480::/32
 add list=spamhaus-drop-ips-ipv6 address=2405:e880::/32
 add list=spamhaus-drop-ips-ipv6 address=2602:f68a::/40
+add list=spamhaus-drop-ips-ipv6 address=2602:f9bb::/36
 add list=spamhaus-drop-ips-ipv6 address=2602:ffa0::/36
 add list=spamhaus-drop-ips-ipv6 address=2604:be0:fff0::/44
 add list=spamhaus-drop-ips-ipv6 address=2607:d100::/32
@@ -58,6 +59,9 @@ add list=spamhaus-drop-ips-ipv6 address=2a0a:c00::/29
 add list=spamhaus-drop-ips-ipv6 address=2a0a:53c0:938::/48
 add list=spamhaus-drop-ips-ipv6 address=2a0a:6240::/29
 add list=spamhaus-drop-ips-ipv6 address=2a0b:3e80::/29
+add list=spamhaus-drop-ips-ipv6 address=2a0b:7ec0::/29
+add list=spamhaus-drop-ips-ipv6 address=2a0b:88c0:16::/48
+add list=spamhaus-drop-ips-ipv6 address=2a0b:88c0:32::/48
 add list=spamhaus-drop-ips-ipv6 address=2a0d:6c2::/32
 add list=spamhaus-drop-ips-ipv6 address=2a0d:c700::/29
 add list=spamhaus-drop-ips-ipv6 address=2a0d:e7c7:ffff::/48
@@ -65,6 +69,10 @@ add list=spamhaus-drop-ips-ipv6 address=2a0e:b107:1a10::/44
 add list=spamhaus-drop-ips-ipv6 address=2a0f:1580::/32
 add list=spamhaus-drop-ips-ipv6 address=2a10:2f01:215::/48
 add list=spamhaus-drop-ips-ipv6 address=2a10:9700::/29
+add list=spamhaus-drop-ips-ipv6 address=2a11:2081::/32
+add list=spamhaus-drop-ips-ipv6 address=2a11:6502::/32
+add list=spamhaus-drop-ips-ipv6 address=2a11:9880::/32
+add list=spamhaus-drop-ips-ipv6 address=2a11:c102::/32
 add list=spamhaus-drop-ips-ipv6 address=2a11:f080::/32
 add list=spamhaus-drop-ips-ipv6 address=2a11:f081::/32
 add list=spamhaus-drop-ips-ipv6 address=2a11:f082::/32
