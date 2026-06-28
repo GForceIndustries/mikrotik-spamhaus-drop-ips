@@ -1,4 +1,4 @@
-# Generated on Sat Jun 27 06:36:44 2026 UTC
+# Generated on Sun Jun 28 06:47:05 2026 UTC
 /ip firewall address-list
 add list=spamhaus-drop-ips-ipv4 address=1.10.16.0/20
 add list=spamhaus-drop-ips-ipv4 address=1.19.0.0/16
