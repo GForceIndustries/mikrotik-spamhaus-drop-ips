@@ -1,4 +1,4 @@
-# Generated on Mon Oct 12 13:21:21 2026 UTC
+# Generated on Tue Oct 13 12:49:40 2026 UTC
 /ipv6 firewall address-list
 add list=spamhaus-drop-ips-ipv6 address=2001:678:254::/48
 add list=spamhaus-drop-ips-ipv6 address=2001:678:6c0::/48
